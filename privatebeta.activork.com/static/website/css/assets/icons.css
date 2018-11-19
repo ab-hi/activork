@@ -1,0 +1,59 @@
+.articles {
+	content: url("../../images/icons/articles_inactive.png");
+}
+
+.mob-nav-list li a:hover .articles {
+	content: url("../../images/icons/articles_active.png");
+}
+
+.events {
+	content: url("../../images/icons/events_inactive.png");
+}
+
+.mob-nav-list li a:hover .events {
+	content: url("../../images/icons/events_active.png");
+}
+
+.bookmarks {
+	content: url("../../images/icons/bookmarks_inactive.png");
+}
+
+.mob-nav-list li a:hover .bookmarks {
+	content: url("../../images/icons/bookmarks_active.png");
+}
+
+.messages {
+	content: url("../../images/icons/messages_inactive.png");
+}
+
+.mob-nav-list li a:hover .messages {
+	content: url("../../images/icons/messages_active.png");
+}
+
+.friends {
+	content: url("../../images/icons/friends_inactive.png");
+}
+
+.mob-nav-list li a:hover .friends {
+	content: url("../../images/icons/friends_active.png");
+}
+
+.notification {
+	content: url("../../images/icons/notification_inactive.png");
+}
+
+.mob-nav-list li a:hover .notification {
+	content: url("../../images/icons/notification_active.png");
+}
+
+.setting {
+	content: url("../../images/icons/setting_inactive.png");
+}
+
+.mob-nav-list li a:hover .setting {
+	content: url("../../images/icons/setting_active.png");
+}
+
+.profile {
+	border-radius: 30px;
+}
