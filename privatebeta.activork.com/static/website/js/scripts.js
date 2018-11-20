@@ -118,11 +118,11 @@ $('#tags').on('change', function() {
 });
 
 
-$('.dropdown-toggle').click(function(){
-	if($(this).parent().is('.open')){
-		$(this).parent().removeClass('open')
-	}
-	else{
-		$(this).parent().addClass('open')
-	}
-})
+// $('.dropdown-toggle').click(function(){
+// 	if($(this).parent().is('.open')){
+// 		$(this).parent().removeClass('open')
+// 	}
+// 	else{
+// 		$(this).parent().addClass('open')
+// 	}
+// })

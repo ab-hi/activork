@@ -1675,7 +1675,7 @@ width: 100%;
 .dropdown-backdrop{
   background: rgba(0,0,0,0.5)
 }
-.card .dropdown-menu{
+.card .dropdown-menu, .article-content .dropdown-menu{
   left: -10em;
 }
 
