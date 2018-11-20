@@ -25,8 +25,8 @@
 <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-  <link rel="stylesheet" href="../static/website/bootstrap-3.3.6-dist/css/bootstrap.css" type="text/css">
+ <!--  <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="../static/website/bootstrap-3.3.6-dist/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="../static/website/css/assets/animate.css" type="text/css" />
     <link rel="stylesheet" href="../static/website/js/owl.carousel.min.css" type="text/css" />
     <link rel="stylesheet" href="../static/website/js/owl.theme.default.min.css" type="text/css" />
@@ -185,7 +185,7 @@ ga('send', 'pageview');
       
       <a href="http://privatebeta.activork.com/login/"><i class="fa fa-cog fa-spin fa-2x"  aria-hidden="true" style="animation:none;font-size:20px;color:#f9a533;float:right;"></i></a>
       
-
+      <button data-toggle="modal" type="button" class="pull-right" data-target="#setcoverpic"><i class="fa fa-cog" ></i></button>
       <!-- Your share button code -->
   <div class="share-wrapper pull-right">
     <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-orange dropdown-toggle"><i class="fa fa-share-alt"></i></button>
@@ -701,43 +701,39 @@ ga('send', 'pageview');
 
 <div class="modal fade" id="setcoverpic" role="dialog" style="padding-top:30px;">
     <div class="modal-dialog" style="overflow-y: initial !important">
-    
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Customize Your Magazine</h4>
+          <h4 class="modal-title">Magazine Settings</h4>
         </div>
         <div class="modal-body col-lg-12" id="magazine_body" style="overflow-y: auto;height:280px;">
-    <h5>Select Cover Pic For Your Magazine</h5> 
-  <input type="hidden" class="magazine_id" id=64>
-  
-  
-  <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=53 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="../../ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/Sun_tan.png"></div>
-  
-  <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=12 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/gym_101.jpg_2"></div>
-  
-  
-
-
+          <input type="hidden" class="magazine_id" id=64>
+          <label>Title</label>
+          <input type="text" placeholder="Title" name="title" id="title_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="Pre Workout" />
+          <label>Description</label>
+          <textarea type="text" placeholder="Description" name="description" id="description_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="/"> </textarea>
+          <div class="form-group">
+            <label>Interest Category</label>
+            <select class="form-control">
+              <option>Category 1</option>
+              <option>Category 2</option>
+            </select>
+          </div>
+          <div class="col-sm-12 col-xs-12" style="margin:0 0;">
+            <div class="checkbox checkbox-slider--b">
+            <input type="checkbox" id="public" checked data-toggle="toggle"> <span id="span_text">Public - Let everyone see my magazine</span>
+            </div>
+          </div>          
+          <h5>Select Cover Pic For Your Magazine</h5> 
+          <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=53 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="../../ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/Sun_tan.png"></div>
+          <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=12 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/gym_101.jpg_2"></div>
+          
   </div>
-  <div class="col-sm-12 col-xs-12" style="margin:0 0;">
-  <div class="checkbox checkbox-slider--b">
-  <input type="checkbox" id="public" checked data-toggle="toggle"> <span id="span_text">Public - Let everyone see my magazine</span>
-</div>
-  <label>Description</label>
-   <input type="text" placeholder="Description" name="description" id="description_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="/" />
-   <label>Title</label>
-         <input type="text" placeholder="Title" name="title" id="title_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="Pre Workout" />
 
-  </div>
-
-
-
-        
         <div class="modal-footer">
-    <a href="#" onclick="open_textarticle_modal()" class="btn btn-default">Add text article</a>
-          <button type="button" class="btn btn-default" onclick=set_coverpic()  >Save</button>
+    <a href="#" onclick="open_textarticle_modal()" class="btn btn-default">Add Text Article</a>
+          <button type="button" class="btn btn-default" onclick=set_coverpic() >Save Changes</button>
         </div>
       </div>
       
