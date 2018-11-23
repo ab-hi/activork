@@ -400,7 +400,7 @@ ul li {
 }
 
 .extra-content {
-    padding-left:0;margin-top:25px;
+    padding-left:0;margin-top:20px;
 }
 
 .comment-section {
@@ -1668,15 +1668,16 @@ width: 100%;
 
 .card .dropdown{
   position: absolute;
-  right: 1.5em;
-  top: 0.5em;
+  right: 2em;
+  top: 1em;
 }
 
 .dropdown-backdrop{
   background: rgba(0,0,0,0.5)
 }
 .card .dropdown-menu, .article-content .dropdown-menu{
-  left: -10em;
+  left: -13em;
+  padding: 10px;
 }
 
 #add_to_magazine_modal{
@@ -1715,5 +1716,30 @@ width: 100%;
 }
 
 .text-primary{
-  color: #f9a533
+  color: #f9a533!important
+}
+
+.dropdown-menu{
+  border-radius: 10px;
+}
+
+.btn-default{
+  border-color : #f9a533;
+}
+
+.m-cards{
+  margin-bottom: 1em;
+}
+
+.m-cards .row-eq-height{
+  padding: 1em 0.5em 0;
+}
+
+.modal-footer{
+  text-align: center;
+}
+
+.share-wrapper .dropdown-menu{
+  padding: 10px;
+  left: -7em;
 }
