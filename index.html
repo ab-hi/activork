@@ -56,7 +56,6 @@ color:white!important;}
 .btn-circle {
   background-color:white;
   border-radius:1px solid #f9a533;
-  
   width: 30px;
   height: 30px;
   text-align: center;
@@ -70,6 +69,26 @@ color:white!important;}
 height:60px;
 }
 
+.row-fluid{
+  min-height:40px; 
+  margin-top: 0.7em;
+}
+
+.row-fluid .left{
+  background-color:#f9a533;
+  color:white; 
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.row-fluid .right{
+  background-color:
+  black;color:white; 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 
 .heading{
 width:320px;
@@ -255,25 +274,25 @@ ga('send', 'pageview');
       
   <section  >
             <div class="container-fluid text-center">
-                <div class="row-fluid row vertical-align" style="min-height:40px;">
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:#f9a533;color:white; display:flex;justify-content:center;align-items:center;"><a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;padding: 1em;width:100%;"><span id="selected-interest-text"></span>All Interests<span class="pull-right glyphicon glyphicon-chevron-down" style="color:white;padding: 2px;"></span></a>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:black;color:white; display:flex;justify-content:center;align-items:center;">
-                  <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
-                    <center><a href="index.html" style="color:#f6921e">
-                     <i class="fa fa-file-text-o"></i>
-                     <br />
-                     Articles
-                    </a></center>
+                <div class="row-fluid row vertical-align" >
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 left"><a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;padding: 1em;width:100%;"><span id="selected-interest-text"></span>All Interests<span class="pull-right glyphicon glyphicon-chevron-down" style="color:white;padding: 2px;"></span></a>
                   </div>
-                  <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
-                    <center><a href="./privatebeta.activork.com/articles/magazine.html" style="color:white;">
-                      <i class="fa fa-book"></i>
-                      <br />
-                      Magazines
-                    </a></center>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 right">
+                    <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
+                      <center><a href="index.html" style="color:#f6921e">
+                       <i class="fa fa-file-text-o"></i>
+                       <br />
+                       Articles
+                      </a></center>
+                    </div>
+                    <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
+                      <center><a href="./privatebeta.activork.com/articles/magazine.html" style="color:white;">
+                        <i class="fa fa-book"></i>
+                        <br />
+                        Magazines
+                      </a></center>
+                    </div>
                   </div>
-                </div>
               
                 <ul class="list-of-interests" style="width:50%;position:absolute;z-index:10000;display:none;">
       
@@ -590,11 +609,12 @@ Well organised, expert curated, high quality content that is locally relevant.
       <div class="mob-nav-list" id="mob-nav-list">
           <ul class="vertical-cat">
             
-              <li>
-                <a href="./privatebeta.activork.com/articles/profile.html">Profile</a> 
+              <li style="padding: 1.5em 0 0 0">
+                <a href="./privatebeta.activork.com/articles/profile.html"> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzE0MHgxNDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNjc0NTY1Njc0MiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE2NzQ1NjU2NzQyIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ0LjAxNTYyNSIgeT0iNzQuNSI+MTQweDE0MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" width="40" height= "40" class="img-circle">
+                 Profile</a> 
               </li>
-              <li>
-                <a href="#!">About "Brand"</a>
+              <li style="padding: 1em 0 0 0">
+                <a href="#!"> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzE0MHgxNDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNjc0NTY1Njc0MiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE2NzQ1NjU2NzQyIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ0LjAxNTYyNSIgeT0iNzQuNSI+MTQweDE0MDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" width="40" height= "40" class="img-circle"> About "Brand"</a>
               </li>
               <li>
                <a href="#!" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Magazines <i class="fa fa-caret-down"></i></a>
