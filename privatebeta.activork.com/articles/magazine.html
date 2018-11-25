@@ -144,9 +144,10 @@ width:320px;
 white-space:nowrap;
 overflow:hidden;
 text-overflow:ellipsis;
-
-
 }
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+.toggle.ios .toggle-handle { border-radius: 20px; }
 
 label.btn.btn-primary.toggle-on{background-color:#e6e6e6;}
 label.btn.btn-default.active.toggle-off{background-color:#f03737;}
@@ -690,7 +691,7 @@ ga('send', 'pageview');
 
   <div class="col-sm-12 col-xs-12" style="margin:20px 0;">
   <div class="checkbox checkbox-slider--b">
-  <input type="checkbox" id="public" checked data-toggle="toggle" data-style="android"> <span id="span_text">Public - Let everyone see my magazine</span>
+  <input type="checkbox" id="public" checked data-toggle="toggle" data-style="ios"> <span id="span_text">Public - Let everyone see my magazine</span>
 </div>
   </div>
 
@@ -727,7 +728,7 @@ ga('send', 'pageview');
           </div>
           <div class="col-sm-12 col-xs-12" style="margin:0 0;">
             <div class="checkbox checkbox-slider--b">
-            <input type="checkbox" id="public" checked data-toggle="toggle" data-style="android"> <span id="span_text">Public - Let everyone see my magazine</span>
+            <input type="checkbox" id="public" checked data-toggle="toggle" data-style="ios"> <span id="span_text">Public - Let everyone see my magazine</span>
             </div>
           </div>          
           <h5>Select Cover Pic For Your Magazine</h5> 
