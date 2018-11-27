@@ -22,7 +22,8 @@
  <meta property="og:image" itemprop="image"   content="../../ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/article_images/Sun_tan-crop-c0-5__0-5-400x400.png" >
  <meta property="og:image:width" content="800" >
 <meta property="og:image:height" content="800" >
-<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<!-- <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <!-- Bootstrap -->
   <!-- Latest compiled and minified CSS -->
  <!--  <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
@@ -35,10 +36,10 @@
     <link rel="stylesheet" href="../static/website/css/assets/icons.css" type="text/css" />
     
     <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css" />
-    <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
    <!-- Core CSS -->         
 <!--         <link href="../static/website/css/bootstrap.min.css" rel="stylesheet"> 
- -->        <link href="../static/website/css/font-awesome.min.css" rel="stylesheet">
+ -->       <!--  <link href="../static/website/css/font-awesome.min.css" rel="stylesheet"> -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet">
         <!-- Style Library -->         
@@ -195,6 +196,7 @@ ga('send', 'pageview');
       <!-- Your share button code -->
       <span class="share-wrapper">
         <a type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="text-primary"><i class="fa fa-share-alt fa-2x"></i></a>
+        &nbsp;
         <ul class="dropdown-menu">
           <li class="btn btn-default btn-block"><a data-href="http://privatebeta.activork.com/magazine-content/?id=64&image=Sun_tan " data-layout="button_count"><i class="fa fa-facebook-square"></i> Facebook</a></li>
           <li class="btn btn-default btn-block"><a href="whatsapp://send?text=http://privatebeta.activork.com/magazine-content/?id=64" data-action="share/whatsapp/share"><i class="fa fa-whatsapp" style="font-size:20px;color:#f9a533;"></i> Whatsapp</a></li>
@@ -723,32 +725,62 @@ ga('send', 'pageview');
           <h4 class="modal-title">Magazine Settings</h4>
         </div>
         <div class="modal-body col-lg-12" id="magazine_body" style="overflow-y: auto;height:400px;">
-          <input type="hidden" class="magazine_id" id=64>
-          <label>Title</label>
-          <input type="text" placeholder="Title" name="title" id="title_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="Pre Workout" />
-          <label>Description</label>
-          <textarea type="text" placeholder="Description" name="description" id="description_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="/"> </textarea>
-          <div class="form-group">
-            <label>Interest Category</label>
-            <select class="form-control">
-              <option>Category 1</option>
-              <option>Category 2</option>
-            </select>
-          </div>
-          <div class="col-sm-12 col-xs-12" style="margin:0 0;">
-            <div class="checkbox checkbox-slider--b">
-            <input type="checkbox" id="public" checked data-toggle="toggle" data-style="ios"> <span id="span_text">Public - Let everyone see my magazine</span>
+            <input type="hidden" class="magazine_id" id=64>
+            <label>Title</label>
+            <input type="text" placeholder="Title" name="title" id="title_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="Pre Workout" />
+            <label>Description</label>
+            <textarea type="text" placeholder="Description" name="description" id="description_magazine" style="width:100%;padding:10px;margin-bottom:20px; border:1px solid #e6e6e6;border-radius:5px;" value="/"> </textarea>
+            <div class="form-group">
+              <label>Interest Category</label>
+              <select class="form-control">
+                <option>Category 1</option>
+               <option>Category 2</option>
+               </select>
             </div>
-          </div>          
-          <h5>Select Cover Pic For Your Magazine</h5> 
-          <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=53 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="../../ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/Sun_tan.png"></div>
-          <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=12 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/gym_101.jpg_2"></div>
-  
-    </div>
+            <div class="col-sm-12 col-xs-12" style="margin:0 0;">
+              <div class="checkbox checkbox-slider--b">
+              <input type="checkbox" id="public" checked data-toggle="toggle" data-style="ios"> <span id="span_text">Public - Let everyone see my magazine</span>
+              </div>
+            </div>          
+            <h5>Select Cover Pic For Your Magazine</h5> 
+            <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=53 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="../../ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/Sun_tan.png"></div>
+            <div  style="padding-left:0px;padding-right:5px;" class="col-lg-3 col-sm-4 col-xs-6"><img  id=12 onclick="select_image(this)" class="thumbnail img-responsive" style="object-fit:cover;" src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/article_images/gym_101.jpg_2"></div>
+            <table class="table" id="articles_list_table">
+              <thead>
+                <tr>
+                  <td>Order</td>
+                  <td>Name</td>
+                  <td>Delete</td>
+                </tr> 
+              </thead>
+              <tbody>
+                <tr>
+                  <td><button class="move_up_btn"><i class="fa fa-caret-up"></i></button><button class="move_down_btn"><i class="fa fa-caret-down"></i></button></td>
+                  <td>Article 1</td>
+                  <td><button class="btn btn-danger remove_article"><i class="fa fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                  <td><button class="move_up_btn"><i class="fa fa-caret-up"></i></button><button class="move_down_btn"><i class="fa fa-caret-down"></i></button></td>
+                  <td>Article 2</td>
+                  <td><button class="btn btn-danger remove_article"><i class="fa fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                  <td><button class="move_up_btn"><i class="fa fa-caret-up"></i></button><button class="move_down_btn"><i class="fa fa-caret-down"></i></button></td>
+                  <td>Article 3</td>
+                  <td><button class="btn btn-danger remove_article"><i class="fa fa-trash"></i></button></td>
+                </tr>
+                <tr>
+                  <td><button class="move_up_btn"><i class="fa fa-caret-up"></i></button><button class="move_down_btn"><i class="fa fa-caret-down"></i></button></td>
+                  <td>Article 4</td>
+                  <td><button class="btn btn-danger remove_article"><i class="fa fa-trash"></i></button></td>
+                </tr>
+              </tbody>
+            </table> 
+        </div>
 
         <div class="modal-footer">
-    <a href="#" onclick="open_textarticle_modal()" class="btn btn-orange">Add Text Article</a>
-          <button type="button" class="btn btn-orange" onclick=set_coverpic() >Save Changes</button>
+            <a href="#" onclick="open_textarticle_modal()" class="btn btn-orange">Add Text Article</a>
+            <button type="button" class="btn btn-orange" onclick=set_coverpic() >Save Changes</button>
         </div>
       </div>
       
@@ -771,7 +803,7 @@ ga('send', 'pageview');
   <input type="hidden" class="magazine_id"  id=64 />
       </div>
       <div class="modal-footer">
-        <button type="submit" class="btn btn-default">Save</button>
+        <button type="submit" class="btn btn-orange btn-lg">Save</button>
       </div>
   </form>
     </div>
@@ -1314,6 +1346,24 @@ function add_to_magazine() {
 
 </script>
 
+</script>
+
+<script type="text/javascript">
+  $('.move_up_btn').click(function(){
+    var index = $(this).parent().parent().index()
+    if(index >0){
+      $(this).parent().parent().insertBefore($('#articles_list_table tbody tr').eq(index-1))
+    }
+  })
+
+   $('.move_down_btn').click(function(){
+    var index = $(this).parent().parent().index()
+    $(this).parent().parent().insertAfter($('#articles_list_table tbody tr').eq(index+1))
+  });
+
+   $('.remove_article').click(function(){
+    $(this).parent().parent().remove()
+   })
 </script>
 
   </body>

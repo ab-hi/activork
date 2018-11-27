@@ -57,3 +57,7 @@
 .profile {
 	border-radius: 30px;
 }
+
+.magazine{
+	content: url('../../images/icons/magazine_inactive.png');
+}
