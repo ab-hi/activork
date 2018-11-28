@@ -404,13 +404,14 @@ ul li {
 }
 
 .comment-section {
-    padding: 2em 1em;
+    padding: 1em 0.75em;
     background: #fff;
     margin-bottom: 25px;
 }
 
 .comment-section ul {
     margin-top: 20px;
+    padding-left: 0
 }
 
 .comment-section ul li {
@@ -1725,14 +1726,11 @@ width: 100%;
 
 .btn-default{
   border-color : #f9a533;
+  border-width: 2px;
 }
 
 .m-cards{
   margin-bottom: 1em;
-}
-
-.m-cards .row-eq-height{
-  padding: 1em 0.5em 0;
 }
 
 .modal-footer{
@@ -1742,4 +1740,18 @@ width: 100%;
 .share-wrapper .dropdown-menu{
   padding: 10px;
   left: -7em;
+}
+
+.card{
+  background: white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.mob-nav .dropdown-menu{
+  left: -8em;
+  padding: 1em;
+}
+
+.mob-nav ul.dropdown-menu li{
+    color: #333; 
 }
