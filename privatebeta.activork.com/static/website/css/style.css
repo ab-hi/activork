@@ -123,6 +123,7 @@ body {
 
 .vertical-cat {
   list-style-type:none;
+  padding-left: 1em;
 }
 
 .vertical-cat li{
@@ -1645,8 +1646,7 @@ width: 100%;
 }
 
 .m-card-footer{
-  background:#f9a533;
-  color:white;
+  color:#f9a533;
   margin:0px!important;
   padding: 0.2em;
   border-radius: 2px;
@@ -1754,4 +1754,26 @@ width: 100%;
 
 .mob-nav ul.dropdown-menu li{
     color: #333; 
+}
+
+.dropdown-toggle{
+  padding: 1em;
+}
+
+.notifications-wrapper{
+  position:absolute;
+  right:0;
+  padding:1.3em;
+}
+
+.notifications-wrapper .dropdown-toggle i.fa-bell{
+  font-size: 1.5em;
+}
+
+.vertical-cat > li > a>img{
+  margin-right: 1em;
+}
+
+ .vertical-cat > li > a>i{
+  margin-right: 0.6em;
 }
