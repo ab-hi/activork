@@ -368,7 +368,7 @@ ul li {
 
 .article-content h4 {
     color: #000;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
 }
 
 .reward-btn-parent {
@@ -1768,11 +1768,19 @@ width: 100%;
 .notifications-wrapper{
   position:absolute;
   right:0;
-  padding:1.3em;
+  padding:1.3em 0;
 }
 
 .notifications-wrapper .dropdown-toggle i.fa-bell{
   font-size: 1.5em;
+}
+
+.notifications-wrapper .dropdown-toggle{
+  color: #555;
+}
+
+.notifications-wrapper .dropdown-toggle.active{
+  color: #f9a533!important;
 }
 
 .vertical-cat > li > a>img{
@@ -1791,4 +1799,32 @@ width: 100%;
 .vertical-cat>li>a>span{
   position: absolute;
   line-height: 24px;
+}
+
+.notifications-wrapper ul.dropdown-menu{
+  padding: 0;
+}
+
+.notifications-wrapper ul.dropdown-menu>li{
+  padding: 1em 1em 0 1em;
+  background: lightgray
+}
+
+.notifications-wrapper ul.dropdown-menu>li:last-child{
+  padding: 1em;
+  border-radius: 0 0 20px 20px
+}
+
+.notifications-wrapper ul.dropdown-menu>li:first-child{
+  border-radius: 20px 20px 0 0
+}
+
+.notifications-wrapper hr{
+  margin: 0;
+}
+
+.notifications-wrapper ul.dropdown-menu>li.active{
+  background: white;
+  font-weight: bold;
+>>>>>>> d13dfb435610f76a36e8558c5e4b87687208b9f3
 }
