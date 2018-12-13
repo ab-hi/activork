@@ -1,0 +1,653 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Register with Activork</title>
+
+    <!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="../static/website/bootstrap-3.3.6-dist/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../static/website/css/assets/animate.css" type="text/css">
+    <link rel="stylesheet" href="../static/website/js/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../static/website/js/owl.theme.default.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="../static/website/css/assets/owl.carousel.css" type="text/css" />
+    <link rel="stylesheet" href="../static/website/css/assets/owl.theme.css" type="text/css" /> -->
+    <link rel="stylesheet" href="../static/website/css/assets/icons.css" type="text/css">
+    <link rel="stylesheet" href="../static/website/css/jquery.modal.css" type="text/css">
+    <link rel="stylesheet" href="../static/website/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    
+<meta name="viewport" content="width=device-width; initial-scale = 1.0; 
+maximum-scale=1.0; user-scalable=no">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="../static/https%3A//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="../static/https%3A//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<meta name="google-signin-client_id" content="302361423265-bj8kgpek0ebu9lgq3ifcrji7dr5gvsrc.apps.googleusercontent.com">
+	<script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.uEeTgbr7mRY.O/m=signin2/rt=j/sv=1/d=1/ed=1/am=QQ/rs=AGLTcCN0d-KqszZlk0xjd8Y0J67EeWUgYA/cb=gapi.loaded_0" async=""></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js"></script><script src="https://apis.google.com/js/platform.js" async="" defer="" gapi_processed="true"></script>
+
+  <style>
+	.abcRioButton.abcRioButtonLightBlue{
+		height: 39px!important;
+		width: 130px!important;
+		float: right;
+	}
+
+	.fb_iframe_widget{
+		float:left;
+	}
+
+    .home-content{
+        margin-top: 0;
+    }
+	</style>
+
+  <style>.abcRioButton{-webkit-border-radius:1px;border-radius:1px;-webkit-box-shadow 0 2px 4px 0px rgba(0,0,0,.25);box-shadow:0 2px 4px 0 rgba(0,0,0,.25);-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:background-color .218s,border-color .218s,box-shadow .218s;transition:background-color .218s,border-color .218s,box-shadow .218s;-webkit-user-select:none;-webkit-appearance:none;background-color:#fff;background-image:none;color:#262626;cursor:pointer;outline:none;overflow:hidden;position:relative;text-align:center;vertical-align:middle;white-space:nowrap;width:auto}.abcRioButton:hover{-webkit-box-shadow:0 0 3px 3px rgba(66,133,244,.3);box-shadow:0 0 3px 3px rgba(66,133,244,.3)}.abcRioButtonBlue{background-color:#4285f4;border:none;color:#fff}.abcRioButtonBlue:hover{background-color:#4285f4}.abcRioButtonBlue:active{background-color:#3367d6}.abcRioButtonLightBlue{background-color:#fff;color:#757575}.abcRioButtonLightBlue:active{background-color:#eee;color:#6d6d6d}.abcRioButtonIcon{float:left}.abcRioButtonBlue .abcRioButtonIcon{background-color:#fff;-webkit-border-radius:1px;border-radius:1px}.abcRioButtonSvg{display:block}.abcRioButtonContents{font-family:Roboto,arial,sans-serif;font-size:14px;font-weight:500;letter-spacing:.21px;margin-left:6px;margin-right:6px;vertical-align:top}.abcRioButtonContentWrapper{height:100%;width:100%}.abcRioButtonBlue .abcRioButtonContentWrapper{border:1px solid transparent}.abcRioButtonErrorWrapper,.abcRioButtonWorkingWrapper{display:none;height:100%;width:100%}.abcRioButtonErrorIcon,.abcRioButtonWorkingIcon{margin-left:auto;margin-right:auto}.abcRioButtonErrorState,.abcRioButtonWorkingState{border:1px solid #d5d5d5;border:1px solid rgba(0,0,0,.17);-webkit-box-shadow:0 1px 0 rgba(0,0,0,.05);box-shadow:0 1px 0 rgba(0,0,0,.05);color:#262626}.abcRioButtonErrorState:hover,.abcRioButtonWorkingState:hover{border:1px solid #aaa;border:1px solid rgba(0,0,0,.25);-webkit-box-shadow:0 1px 0 rgba(0,0,0,.1);box-shadow:0 1px 0 rgba(0,0,0,.1)}.abcRioButtonErrorState:active,.abcRioButtonWorkingState:active{border:1px solid #aaa;border:1px solid rgba(0,0,0,.25);-webkit-box-shadow:inset 0 1px 0 #ddd;box-shadow:inset 0 1px 0 #ddd;color:#262626}.abcRioButtonWorkingState,.abcRioButtonWorkingState:hover{background-color:#f5f5f5}.abcRioButtonWorkingState:active{background-color:#e5e5e5}.abcRioButtonErrorState,.abcRioButtonErrorState:hover{background-color:#fff}.abcRioButtonErrorState:active{background-color:#e5e5e5}.abcRioButtonWorkingState .abcRioButtonWorkingWrapper,.abcRioButtonErrorState .abcRioButtonErrorWrapper{display:block}.abcRioButtonErrorState .abcRioButtonContentWrapper,.abcRioButtonWorkingState .abcRioButtonContentWrapper,.abcRioButtonErrorState .abcRioButtonWorkingWrapper{display:none}.-webkit-keyframes abcRioButtonWorkingIconPathSpinKeyframes{0%{-webkit-transform:rotate(0)}} </style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_in_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_out_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bubble_pop_in{animation-duration:250ms;animation-name:fb_customer_chat_bubble_bounce_in_animation}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_v2_mobile_chat_started{0%{opacity:0;top:20px}100%{opacity:1;top:0}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}</style></head>
+  <body cz-shortcut-listen="true">
+
+    <!-- Modals -->
+
+    <!-- <div id="location-modal" style="display:none">
+      <h4>Your Location : <small><span id="auto-location-detail">Retriving..</span></small></h4>
+      <center>
+        <h4>OR</h4>
+      </center>
+      <h4>Select a location from the list below</h4>
+      <ul class="list-unstyled">
+        <li><a href="#">Connaught Place</a></li>
+        <li><a href="#">Rohini</a></li>
+        <li><a href="#">Hauz Khaz</a></li>
+      </ul>
+    </div> -->
+
+   <!-- Header -->
+	<!-- Navigation -->
+
+    <div class="container-fluid" style="background:#333;position:fixed;top:0;width:100%;z-index:10000;">
+        <div class="container">
+            <ul class="navigation" style="display:none;">
+                <li>
+                    <a href="/articles/"><img src="../static/website/images/logo-v2.png" width="100" class="img-responsive"></a>
+                </li>
+                <li>
+                    <form class="form-inline search">
+            				  <div class="form-group">
+            				    <div class="input-group">
+            				      <div class="input-group-addon" style="background:#fff;color:#ccc;">Location</div>
+            				      <input type="text" class="form-control" id="search" placeholder="Search" style="width:360px;border: none;box-shadow: none;border-left: 1px solid #ccc;">
+            				      <button type="submit" style="height:34px;" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button></div>
+            				  </div>
+                    </form>
+                </li>
+                <li class="li-flex-container">
+
+                  
+                    <div class="vertical-center-align">
+                      <a href="/login/" style="border:none;font-size:14px;">Login</a>
+                    </div>
+                  
+                </li>
+            </ul>
+
+            <div class="row mob-nav" style="position:relative;">
+                <div class="col-xs-12 col-sm-12 col-md-12" style="padding:1em;">
+                    <center><a href="/articles/"><img src="../static/website/images/logo.png" width="100" class="img-responsive"></a></center>
+                </div>
+
+                <div style="position:absolute;left:0;padding:1em;">
+                    <a href="javascript:void(0);" onclick="showNav()" style="font-size:25px;color:#ffb414;">☰</a>
+                </div>
+
+                <!--<div style="position:absolute;right:0;padding:1em;">
+                  <a href="#" id="menu-location-btn"><img src="../static/website/images/location.png" width="20" alt="" /></a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="featured-container" style="position:relative;height:360px;padding:0;overflow:hidden;
+background:url('../static/website/images/cover.png');
+">
+
+    
+      <div style="position:absolute;bottom:0;transform;width:100%;text-align:center;">
+        <h2 style="color:#fff;font-weight:600;letter-spacing:3px;padding:1em;background:rgba(0, 0, 0, 0.5);">Register with Activork</h2>
+      </div>
+
+    <div id="location-menu">
+      <div id="location-detail">
+        <div class="uil-gps-css" style="transform:scale(0.15);width:300px;height:50px;"><div class="inner"></div><div class="outer"></div><div class="markers"><div class="markers-ib"><div class="marker"></div><div class="marker"></div><div class="marker"></div><div class="marker"></div></div></div></div>
+      </div>
+        <center>
+          <ul class="list-inline location-list">
+            <li><a href="#">Hauz Khaz</a></li>
+            <li><a href="#">Connaught Place</a></li>
+          </ul>
+        </center>
+    </div>
+
+    </div>
+
+    <div id="fix-anchor">
+
+    </div>
+
+     <div class="container" style="padding:0;">
+      
+        
+        <div class="row container visible-xs visible-sm visible-md visible-lg" style="background:#1e1f23;color:#fff;padding:0;width:100%;margin-right: 0px;margin-left: 0px;left: 0px;right: 0px;margin: 0 auto;" id="interest-bar">
+            <!--<div class="col-xs-12 col-sm-12 col-md-12" style="padding:0;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="padding:0;"><a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;padding: 1em;width:100%;"><span id="selected-interest-text"></span><span class="pull-right glyphicon glyphicon-chevron-down" style="color:white;padding: 2px;"></span></a></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 visible-xs visible-sm"><div class="row">
+                  <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
+                    <center><a href="/articles/" style="color:">
+                      <img src="../static/website/images/icons/articles_inactive.png" width="25" style="margin-right:10px;"/>Articles
+                    </a></center>
+                  </div>
+                  <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
+                    <center><a href="/events/" style="color:white;">
+                      <img src="../static/website/images/icons/events_inactive.png" width="25"  style="margin-right:10px;" />Events
+                    </a></center>
+                  </div>
+                </div></div>
+                <div class="pull-right event-bar visible-md visible-lg" style="position: absolute;right: 0;top: 25%;">
+                  <span style="margin-right:15px;">
+                    <a id="article-bar-link" href="/articles/" style="color:;">
+                      <img style="');" width="25" class="hidden-xs hidden-sm"/>Articles
+                    </a>
+                  </span>
+                  <span style="margin-right:25px;">
+                    <a id="event-bar-link" href="/events/" style="color:;">
+                      <img style="');" width="25" class="hidden-xs hidden-sm"/>Events
+                    </a>
+                  </span>
+                </div>
+                <ul class="list-of-interests" style="width:50%;position:absolute;z-index:10000;display:none;">
+                  
+                </ul>
+            </div>-->
+
+	<section>
+            <div class="container-fluid text-center">
+                <div class="row-fluid vertical-align" style="margin-left:-15px;margin-right:-15px; display:flex;min-height:40px;">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:#f9a533;color:white; display:flex;justify-content:center;align-items:center;"><a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;padding: 1em;width:100%;"><span id="selected-interest-text"></span>All Interests<span class="pull-right glyphicon glyphicon-chevron-down" style="color:white;padding: 2px;"></span></a>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="background-color:black;color:white; display:flex;justify-content:center;align-items:center;">
+                  <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
+                    <center><a href="/articles/" style="color:#f6921e">
+                      <img src="../static/website/images/icons/articles_active.png" width="25" style="margin-right:10px;">Articles
+                    </a></center>
+                  </div>
+                  <div class="col-xs-6 col-sm-6" style="padding:0.8em 0;">
+                    <center><a href="/magazines" style="color:white;">
+                      <img src="../static/website/images/icons/events_inactive.png" width="25" style="margin-right:10px;">Magazines
+                    </a></center>
+                  </div>
+                </div>
+              
+                <ul class="list-of-interests" style="width:50%;position:absolute;z-index:10000;display:none;">
+		  
+                  <li><a href="/articles/?interest=1">All Interests</a></li>
+		  
+                  <li><a href="/articles/?interest=2">Style &amp; Fashion</a></li>
+		  
+                  <li><a href="/articles/?interest=3">Health &amp; Fitness</a></li>
+		  
+                  <li><a href="/articles/?interest=4">Wellness</a></li>
+		  
+                  <li><a href="/articles/?interest=5">Food</a></li>
+		  
+                  <li><a href="/articles/?interest=6">Abstract</a></li>
+		  
+                  <li><a href="/articles/?interest=8">Music &amp; Videos</a></li>
+		  
+
+                </ul>
+		</div>
+            </div>
+            <!-- /.container -->
+        </section>
+          
+      
+    </div>
+
+	<div class="container" style="background:#f7f7f7;border:none;">
+		<div class="row">
+      <!-- Sidebar -->
+    
+      <!-- End of sidebar -->
+			<div class="col-sm-12 col-md-12">
+
+                <!--<div class="row hidden-xs hidden-sm hidden-lg">
+                    <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 0;">
+                        <a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;">Select an Interest</a>
+                        <div class="pull-right event-bar" style="display: inline-block;padding:1em;"><a href="javascipt:void(0)" class="active">Articles</a> | <a href="javascipt:void(0)">Events</a></div>
+                        <ul class="list-of-interests" style="width:50%;position:absolute;z-index:10000;display:none;">
+                                    <li>
+                                        <a href="javascipt:void(0)">Politics</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascipt:void(0)">Sports</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascipt:void(0)">Music</a>
+                                    </li>
+
+                        </ul>
+                    </div>
+                </div>-->
+
+                <!-- Select interest bar for mobile -->
+
+                <!-- Content -->
+				<div class="home-content">
+          
+<div class="row">
+  <div class="col-sm-12 col-xs-12 col-md-12" style="padding: 2em 0;">
+    <center>
+      <div style="width:300px;">
+        <form action="/signup/" method="post" class="auth" id="auth_reg_form">
+          <input type="hidden" name="csrfmiddlewaretoken" value="eIpCSGQatbQXU6SqqrvvxeietwvsmVMF">
+
+	
+
+
+
+          <div class="form-element">
+            <input type="text" name="username" class="form-input" placeholder="Username">
+          </div>
+          <div class="form-element">
+            <input type="text" name="email" class="form-input" placeholder="Email">
+          </div>
+          <div class="form-element">
+            <input type="password" name="password" class="form-input" placeholder="Password">
+          </div>
+         <!-- <div class="form-element">
+            <input type="number" name="phone" class="form-input" placeholder="Phone" maxlength="10" />
+          </div>-->
+          <div class="form-element" style="text-align:left;">
+            <span style="font-size:14pt;font-weight:300;color:#333;" id="status_text">All fields are necessary</span>
+          </div>
+          <div class="form-element">
+            <button type="submit" id="register" class="btn_auth">Register</button>
+          </div>
+        </form>
+	<div class="social_button" style="display:block;">
+	<fb:login-button size="xlarge" scope="public_profile,email" onlogin="checkLoginState();" login_text="
+" class=" fb_iframe_widget fb_iframe_widget_fluid" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=211645365910434&amp;container_width=0&amp;locale=en_US&amp;login_text=%0A&amp;scope=public_profile%2Cemail&amp;sdk=joey&amp;size=xlarge"><span style="vertical-align: bottom; width: 123px; height: 39px;"><iframe name="fbd9a4b0f6744" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" title="fb:login_button Facebook Social Plugin" src="https://www.facebook.com/v2.8/plugins/login_button.php?app_id=211645365910434&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FLviKjJ9cymB.js%3Fversion%3D43%23cb%3Df2d998d579cb5a4%26domain%3Dprivatebeta.activork.com%26origin%3Dhttp%253A%252F%252Fprivatebeta.activork.com%252Ff2eb0a9b3dd79dc%26relation%3Dparent.parent&amp;container_width=0&amp;locale=en_US&amp;login_text=%0A&amp;scope=public_profile%2Cemail&amp;sdk=joey&amp;size=xlarge" style="border: none; visibility: visible; width: 123px; height: 39px;" class=""></iframe></span></fb:login-button>
+	<div class="g-signin2" data-onsuccess="onSignIn" data-gapiscan="true" data-onload="true"><div style="height:36px;width:120px;" class="abcRioButton abcRioButtonLightBlue"><div class="abcRioButtonContentWrapper"><div class="abcRioButtonIcon" style="padding:8px"><div style="width:18px;height:18px;" class="abcRioButtonSvgImageWithFallback abcRioButtonIconImage abcRioButtonIconImage18"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg></div></div><span style="font-size:13px;line-height:34px;" class="abcRioButtonContents"><span id="not_signed_in9qwbtovvzo4o">Sign in</span><span id="connected9qwbtovvzo4o" style="display:none">Signed in</span></span></div></div></div>
+	</div>
+	<!--<input type="submit" onclick="checkLoginState();"/>-->
+
+<div id="status">
+</div>
+
+        <div style="padding:3em 0">
+          <span style="display:block;margin-top:30px;font-size:22pt;color:#f9a533;">OR</span>
+        </div>
+        <div>
+          <a href="/login/" class="btn_auth">Login</a>
+        </div>
+      </div>
+    </center>
+  </div>
+</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- End of Header -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5">
+                <p class="text-muted">
+		Activork is a platform that helps users make smart lifestyle choices, locally.
+Well organised, expert curated, high quality content that is locally relevant.
+                </p>
+            </div>
+            <div class="col-md-7 hidden-xs hidden-sm">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul style="list-style-type:none" class="text-muted">
+                            <li style="padding-bottom:2em;">
+                                <a href="javascipt:void(0)">BUSINESSES</a>
+                            </li>
+                            <li>
+                                Add Hangout
+                            </li>
+                            <li>
+                                Claim your listing
+                            </li>
+                            <li>
+                                Advertise
+                            </li>
+                            <li>
+                                Base
+                            </li>
+                            <li>
+                                Book
+                            </li>
+                            <li>
+                                Guidelines
+                            </li>
+                            <li>
+                                Business Blog
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Mobile Menu -->
+    <div class="container" style="overflow:hidden;padding:0;position:relative;">
+      <div class="mob-nav-list" id="mob-nav-list">
+          <ul class="vertical-cat">
+            
+              <li>
+                <a href="/login/">Login</a> 
+              </li>
+              <li>
+                <a href="/signup/">Sign Up</a>
+              </li>
+            
+              <li>
+                  <form class="search">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="text" class="form-control" id="search" placeholder="Search" style="width:80%;box-shadow: none;box-shadow:none;border:1px solid grey;border-radius:0;color:white;background:black;">
+                        <button type="submit" style="height:34px;display:none;" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button></div>
+                      </div>
+
+                  </form>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+    <!-- Mobile Add Post -->
+    <ul class="list-unstyled" id="mobile-events">
+      <li><a href="/website/post_event/"><button type="button" name="button" id="mobile-post-event">Post Event</button></a></li>
+      <li><a href="/website/post_article/"><button type="button" name="button" id="mobile-post-article">Post Article</button></a></li>
+      <!--<li><button type="button" name="button" id="login-human">You gotta login human!</button></li>-->
+    </ul>
+    <!--<div class="visible-xs add-btn">
+        <button id="add-post"></button>
+    </div>-->
+
+    <!-- Mobile shadow -->
+    <div class="shadow">
+    </div>
+
+<script>
+
+function getCookie(name) {
+       var cookieValue = null;
+       if (document.cookie && document.cookie != '') {
+         var cookies = document.cookie.split(';');
+         for (var i = 0; i < cookies.length; i++) {
+         var cookie = jQuery.trim(cookies[i]);
+         // Does this cookie string begin with the name we want?
+         if (cookie.substring(0, name.length + 1) == (name + '=')) {
+             cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+             break;
+          }
+     }
+ }
+ return cookieValue;
+}
+
+
+	// This is called with the results from from FB.getLoginStatus().
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+    // The response object is returned with a status field that lets the
+    // app know the current login status of the person.
+    // Full docs on the response object can be found in the documentation
+    // for FB.getLoginStatus().
+    if (response.status === 'connected') {
+      // Logged into your app and Facebook.
+      testAPI();
+    } else if (response.status === 'not_authorized') {
+      // The person is logged into Facebook, but not your app.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    } else {
+      // The person is not logged into Facebook, so we're not sure if
+      // they are logged into this app or not.
+      document.getElementById('status').innerHTML = 'Please log ' +
+        'into Facebook.';
+    }
+  }
+// This function is called when someone finishes with the Login
+  // Button.  See the onlogin handler attached to it in the sample
+  // code below.
+  function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+ };
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '211645365910434',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+   
+};
+//  FB.getLoginStatus(function(response) {
+  //  statusChangeCallback(response);
+ // });
+
+ 
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+// Here we run a very simple test of the Graph API after login is
+  // successful.  See statusChangeCallback() for when this call is made.
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me?fields=id,name,email,picture', function(response) {
+      console.log('Successful login for: ' + response.name);
+      document.getElementById('status').innerHTML =
+        'Thanks for logging in, ' + response.name + '!';
+	console.log(response);
+	var csrftoken = getCookie('csrftoken');
+	data = {}
+  	data['csrfmiddlewaretoken'] = csrftoken;
+	data['email'] = response.email;
+	data['username'] = response.name.split(" ")[0];
+	data['password']=response.id;
+	data['source'] = "facebook";
+	data['uid'] = response.id;
+	data['image'] = response.picture.data.url;
+	FB.logout()
+	url = "http://privatebeta.activork.com/social-login/"
+	
+	$.ajax({
+         url : url, // the endpoint,commonly same url
+         type : "POST", // http method
+         data : data, // data sent with the post request
+
+		 // handle a successful response
+	 success : function(json) {
+		console.log(json);
+		var obj = JSON.parse(json);
+		//console.log(json);
+      		//console.log(obj.status); // another sanity check
+		if(obj.status == 1){
+			window.location.href="http://privatebeta.activork.com/articles/"
+		}
+		else {
+			console.log(json);
+			//window.location.href="http://privatebeta.activork.com/login/?error="+json.error+"";
+		}
+
+     	
+ 		},
+
+	 // handle a non-successful response
+	 error : function(xhr,errmsg,err) {
+		 console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+		 }
+ 	});
+	
+		
+    });
+  }
+
+
+	function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+  signOut();
+  var csrftoken = getCookie('csrftoken');
+	data = {}
+  	data['csrfmiddlewaretoken'] = csrftoken;
+	data['email'] = profile.getEmail();
+	data['username'] = profile.getName().split(" ")[0];
+	data['password']=profile.getId()
+	data['source'] = "google";
+	data['uid'] = profile.getId();
+	data['image'] = profile.getImageUrl();
+	url = "http://privatebeta.activork.com/social-login/"
+	
+	$.ajax({
+         url : url, // the endpoint,commonly same url
+         type : "POST", // http method
+         data : data, // data sent with the post request
+
+		 // handle a successful response
+	 success : function(json) {
+		console.log(json);
+		var obj = JSON.parse(json);
+		//console.log(json);
+      		//console.log(obj.status); // another sanity check
+		if(obj.status == 1){
+			window.location.href="http://privatebeta.activork.com/articles/"
+		}
+		else {
+			console.log(json);
+			window.location.href="http://privatebeta.activork.com/login/?error=User already exists";
+		}
+
+     	
+ 		},
+
+	 // handle a non-successful response
+	 error : function(xhr,errmsg,err) {
+		 console.log(xhr.status + ": " + xhr.responseText); // provide a bit more info about the error to the console
+		 }
+ 	});
+	
+}
+
+function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+        console.log('User signed out.');
+    });
+}
+
+</script>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	  <!-- Latest compiled and minified JavaScript -->
+    <script src="../static/website/js/jquery-1.9.1.js"></script>
+    <script src="../static/website/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <!-- x-editable (bootstrap version) -->
+    <script src="../static/website/js/owl.carousel2.min.js"></script>
+    <!-- <script src="../static/website/js/owl.carousel.js"></script> -->
+    <script src="../static/website/js/carousel.js"></script>
+    <script src="../static/website/js/scripts.js"></script>
+    <script src="../static/website/js/cookie.js"></script>
+    <script src="../static/website/js/jquery.modal.js"></script>
+    <!--<script src="../static/website/js/interest.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+    <script>
+      $('#menu-location-btn').on('click', function() {
+        $('#location-menu').css('display', 'block');
+        if ($("#location-menu").hasClass("slideInDown")) {
+          $("#location-menu").removeClass('animated slideInDown');
+          $("#location-menu").addClass('animated slideOutUp');
+        } else {
+          $("#location-menu").removeClass('animated slideOutUp');
+          $("#location-menu").addClass('display-block animated slideInDown');
+        }
+        if (navigator.geolocation) {
+          console.log('Geolocation is supported');
+            var startPos;
+            var geoSuccess = function(position) {
+              startPos = position;
+              console.log(startPos.coords.latitude)
+              console.log(startPos.coords.longitude)
+              $.ajax({
+                url: 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+ startPos.coords.latitude +','+ startPos.coords.longitude +'&sensor=true',
+                type: 'GET',
+              }).then(function(res) {
+                console.log(res);
+                $('#location-detail').html(res['results'][0]['formatted_address']);
+              });
+
+            };
+            try {
+              navigator.geolocation.getCurrentPosition(geoSuccess);
+            } catch(e) {
+              console.log(e);
+            }
+
+        } else {
+            console.log('Geolocation is not supported')
+        }
+      })
+
+      $('button[id^="mobile-post"]').on('click', function(e) {
+        console.log(e);
+      })
+    </script>
+   <!-- <script src="../static/website/js/ajax/auth.js"></script>-->
+  
+
+
+</div><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" style="position: absolute; width: 1px; height: 1px; left: -9999px; top: -9999px; right: -9999px; bottom: -9999px; display: none;" src="https://accounts.google.com/o/oauth2/iframe#origin=http%3A%2F%2Fprivatebeta.activork.com&amp;rpcToken=2005817339.8206258"></iframe><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/LviKjJ9cymB.js?version=43#channel=f2eb0a9b3dd79dc&amp;origin=http%3A%2F%2Fprivatebeta.activork.com" style="border: none;"></iframe></div><div></div></div></div></body></html>
