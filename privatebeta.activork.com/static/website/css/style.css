@@ -273,6 +273,10 @@ ul li {
 .list-of-interests {
     background: #f9a533;
     padding: 1em;
+    width:50%;
+    position:absolute;
+    z-index:10000;
+    display:none;
 }
 
 .list-of-interests li a {
@@ -1826,5 +1830,4 @@ width: 100%;
 .notifications-wrapper ul.dropdown-menu>li.active{
   background: white;
   font-weight: bold;
->>>>>>> d13dfb435610f76a36e8558c5e4b87687208b9f3
 }
