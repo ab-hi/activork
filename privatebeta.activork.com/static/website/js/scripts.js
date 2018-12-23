@@ -39,42 +39,42 @@ $("#interests").click(function() {
 fix_interest_bar();
 */
 $(document).ready(function() {
-$("#interest-mob-btn").click(function(e) {
-	var interests = $(".list-of-interests");
-	console.log(interests);
-	var disp = interests.css('display');
-	console.log(disp);
-  e.stopPropagation();
-	if (disp == 'none') {
-		interests.slideDown(200);
-	} else {
-		interests.slideUp(200);
-	}
-});
+	$("#interest-mob-btn").click(function(e) {
+		var interests = $(".list-of-interests");
+		console.log(interests);
+		var disp = interests.css('display');
+		console.log(disp);
+		e.stopPropagation();
+		if (disp == 'none') {
+			interests.slideDown(200);
+		} else {
+			interests.slideUp(200);
+		}
+	});
 });
 
 $(window).on('click', function() {
-  var interests = $(".list-of-interests");
-  var disp = interests.css('display');
+	var interests = $(".list-of-interests");
+	var disp = interests.css('display');
 
-  if (disp == 'block') {
-    interests.slideUp(200);
-  }
+	if (disp == 'block') {
+		interests.slideUp(200);
+	}
 })
 
 $("#add-post").click(function() {
-  $(".shadow").addClass('display-block animated fadeIn');
-  $("#mobile-events").addClass('animated fadeIn');
-  $('#mobile-events').css('display', 'block');
-  if (!Cookies.get('user_session_cookie')) {
-    $('button[id^="mobile-post-"]').css('display', 'none');
-  }
+	$(".shadow").addClass('display-block animated fadeIn');
+	$("#mobile-events").addClass('animated fadeIn');
+	$('#mobile-events').css('display', 'block');
+	if (!Cookies.get('user_session_cookie')) {
+		$('button[id^="mobile-post-"]').css('display', 'none');
+	}
 });
 
 $(".shadow").click(function() {
 	$(".shadow").removeClass('display-block animated fadeIn');
-  $('#mobile-events').css('display', 'none');
-  $("#mobile-events").removeClass('animated fadeIn');
+	$('#mobile-events').css('display', 'none');
+	$("#mobile-events").removeClass('animated fadeIn');
 });
 
 var interest_drop_down = $(".interest-drop-down > ul");
@@ -103,7 +103,7 @@ function commentBox_placeholder() {
 
 	$("#commentBox").blur(function() {
 		if ($("#commentBox").val() == '')
-	  		$(this).html('Post Comment');
+			$(this).html('Post Comment');
 	});
 }
 
@@ -118,11 +118,42 @@ $('#tags').on('change', function() {
 });
 
 
-// $('.dropdown-toggle').click(function(){
-// 	if($(this).parent().is('.open')){
-// 		$(this).parent().removeClass('open')
-// 	}
-// 	else{
-// 		$(this).parent().addClass('open')
-// 	}
-// })
+$('#menu-location-btn').on('click', function() {
+	$('#location-menu').css('display', 'block');
+	if ($("#location-menu").hasClass("slideInDown")) {
+		$("#location-menu").removeClass('animated slideInDown');
+		$("#location-menu").addClass('animated slideOutUp');
+	} else {
+		$("#location-menu").removeClass('animated slideOutUp');
+		$("#location-menu").addClass('display-block animated slideInDown');
+	}
+	if (navigator.geolocation) {
+		console.log('Geolocation is supported');
+		var startPos;
+		var geoSuccess = function(position) {
+			startPos = position;
+			console.log(startPos.coords.latitude)
+			console.log(startPos.coords.longitude)
+			$.ajax({
+				url: 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+ startPos.coords.latitude +','+ startPos.coords.longitude +'&sensor=true',
+				type: 'GET',
+			}).then(function(res) {
+				console.log(res);
+				$('#location-detail').html(res['results'][0]['formatted_address']);
+			});
+
+		};
+		try {
+			navigator.geolocation.getCurrentPosition(geoSuccess);
+		} catch(e) {
+			console.log(e);
+		}
+
+	} else {
+		console.log('Geolocation is not supported')
+	}
+})
+
+$('button[id^="mobile-post"]').on('click', function(e) {
+	console.log(e);
+})

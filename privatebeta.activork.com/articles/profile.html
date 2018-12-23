@@ -19,13 +19,13 @@
   <link rel="stylesheet" href="../static/website/css/assets/animate.css" type="text/css">
   <link rel="stylesheet" href="../static/website/js/owl.carousel.min.css" type="text/css">
   <link rel="stylesheet" href="../static/website/js/owl.theme.default.min.css" type="text/css">
-    <!-- <link rel="stylesheet" href="/static/website/css/assets/owl.carousel.css" type="text/css" />
-      <link rel="stylesheet" href="/static/website/css/assets/owl.theme.css" type="text/css" /> -->
-      <link rel="stylesheet" href="../static/website/css/assets/icons.css" type="text/css">
-      <!--  <link rel="stylesheet" href="/static/website/css/jquery.modal.css" type="text/css" />-->
-      <link rel="stylesheet" href="../static/website/css/style.css" type="text/css">
-      <link rel="stylesheet" href="../static/website/css/profile.css" type="text/css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css">
+<!-- <link rel="stylesheet" href="/static/website/css/assets/owl.carousel.css" type="text/css" />
+  <link rel="stylesheet" href="/static/website/css/assets/owl.theme.css" type="text/css" /> -->
+  <link rel="stylesheet" href="../static/website/css/assets/icons.css" type="text/css">
+  <!--  <link rel="stylesheet" href="/static/website/css/jquery.modal.css" type="text/css" />-->
+  <link rel="stylesheet" href="../static/website/css/style.css" type="text/css">
+  <link rel="stylesheet" href="../static/website/css/profile.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" type="text/css">
 <!--     <link href="../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 -->
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -44,93 +44,91 @@
 </head>
 <body cz-shortcut-listen="true">
 
- --&gt;
+  <!-- Header -->
+  <!-- Navigation -->
 
- <!-- Header -->
- <!-- Navigation -->
-
- <div class="container-fluid page-wrapper">
-  <div class="container">
-    <ul class="wrapper" "navigation"="" style="display:none;">
-      <li>
-        <a href="/articles/"><img src="../static/website/images/logo-v2.png" width="100" class="img-responsive"></a>
-      </li>
-      <li>
-        <form class="form-inline search">
-          <div class="form-group">
-            <div class="input-group">
-              <div class="input-group-addon">Location</div>
-              <input type="text" class="form-control" id="search2" placeholder="Search">
-              <button type="submit" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button></div>
-            </div>
-          </form>
+  <div class="container-fluid page-wrapper">
+    <div class="container">
+      <ul class="wrapper" "navigation"="" style="display:none;">
+        <li>
+          <a href="/articles/"><img src="../static/website/images/logo-v2.png" width="100" class="img-responsive"></a>
         </li>
-        <li class="li-flex-container">
-          <div class="vertical-center-align">
-            <a href="/login/">Login</a>
-          </div>
-        </li>
-      </ul>
-
-      <div class="row mob-nav">
-        <div class="col-xs-12 col-sm-12 col-md-12" style="padding:1em;">
-          <center><a href="/articles/"><img src="../static/website/images/logo.png" width="100" class="img-responsive"></a></center>
-        </div>
-        <div class="showNav-wrapper">
-          <a href="javascript:void(0);" class="showNav" onclick="showNav()">☰</a>
-        </div>
-
-                <!--<div style="position:absolute;right:0;padding:1em;">
-                  <a href="#" id="menu-location-btn"><img src="/static/website/images/location.png" width="20" alt="" /></a>
-                </div>-->
+        <li>
+          <form class="form-inline search">
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-addon">Location</div>
+                <input type="text" class="form-control" id="search2" placeholder="Search">
+                <button type="submit" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button></div>
               </div>
+            </form>
+          </li>
+          <li class="li-flex-container">
+            <div class="vertical-center-align">
+              <a href="/login/">Login</a>
             </div>
-          </div>
-
-          <div class="wrapper container" id="featured-container">
-            <div class="wrapper container" >
-
-              <!-- Modal HTML embedded directly into document -->
-              <div id="ex1" style="display:none;">
-                <form id="profile-picture-form" enctype="multipart/form-data">
-                  <table align="center">
-                    <tbody><tr>
-                      <td colspan="2">
-                        <center><input type="file" id="profile_image"></center>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="submit" value="Change Profile Picture">
-                      </td>
-                      <td>
-                        <a href="#" rel="modal:close">Cancel</a>
-                      </td>
-                    </tr>
-                  </tbody></table>
-                </form>
-              </div>
-
-      <!-- <div id="more-modal" style="display:none">
-        <ul class="list-unstyled modal-list">
-          <li><a href="#">Unfollow</a></li>
-          <li><a href="#">Report</a></li>
+          </li>
         </ul>
-      </div> -->
 
-      <!-- Profile Header -->
-      <div class="thumbnail text-center">
+        <div class="row mob-nav">
+          <div class="col-xs-12 col-sm-12 col-md-12" style="padding:1em;">
+            <center><a href="/articles/"><img src="../static/website/images/logo.png" width="100" class="img-responsive"></a></center>
+          </div>
+          <div class="showNav-wrapper">
+            <a href="javascript:void(0);" class="showNav" onclick="showNav()">☰</a>
+          </div>
 
-        <div class="circle">T</div>
-
-		<!--<div style="width:40px;height:40px;right:0;font-size:30px;color:#f9a533;float:right;" >
-		<i class="fa fa-share-alt" aria-hidden="true"></i>
-  </div>-->
-  <input type="file" id="file-loader">
-  <a href="#ex1" rel="modal:open" class="glyphicon glyphicon-pencil" id="edit-image"></a>
+<!--<div style="position:absolute;right:0;padding:1em;">
+<a href="#" id="menu-location-btn"><img src="/static/website/images/location.png" width="20" alt="" /></a>
+</div>-->
+</div>
+</div>
 </div>
 
-<h3 style="font-weight:800;text-align:center;">
+<div class="wrapper container" id="featured-container">
+  <div class="wrapper container" >
+
+    <!-- Modal HTML embedded directly into document -->
+    <div id="ex1" style="display:none;">
+      <form id="profile-picture-form" enctype="multipart/form-data">
+        <table align="center">
+          <tbody><tr>
+            <td colspan="2">
+              <center><input type="file" id="profile_image"></center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" value="Change Profile Picture">
+            </td>
+            <td>
+              <a href="#" rel="modal:close">Cancel</a>
+            </td>
+          </tr>
+        </tbody></table>
+      </form>
+    </div>
+
+<!-- <div id="more-modal" style="display:none">
+<ul class="list-unstyled modal-list">
+<li><a href="#">Unfollow</a></li>
+<li><a href="#">Report</a></li>
+</ul>
+</div> -->
+
+<!-- Profile Header -->
+<div class="thumbnail text-center">
+
+  <div class="circle">T</div>
+
+<!--<div style="width:40px;height:40px;right:0;font-size:30px;color:#f9a533;float:right;" >
+<i class="fa fa-share-alt" aria-hidden="true"></i>
+</div>-->
+<input type="file" id="file-loader">
+<a href="#ex1" rel="modal:open" class="glyphicon glyphicon-pencil" id="edit-image"></a>
+</div>
+
+<h3 style="font-weight:800;" class="text-center">
   <strong>Test</strong>
   <!-- <a href="#more-modal" rel="modal:open"><img src="/static/website/images/more-2.png" width="25" alt="" /></a> -->
 </h3>
@@ -140,10 +138,10 @@
 </div>
 
 <div class="text-center" style="padding-bottom:20px;">
- <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#edit_profile">Edit</button>
- <br />
- <br />
- <button type="button" class="btn btn-orange">Follow</button>
+  <button type="button" class="btn btn-orange" data-toggle="modal" data-target="#edit_profile">Edit</button>
+  <br />
+  <br />
+  <button type="button" class="btn btn-orange">Follow</button>
 </div>
 
 </div>
@@ -181,149 +179,149 @@
 <div class="wrapper container" style="background:white;border:none;">
   <div class="row">
     <!-- Sidebar -->
-    
+
     <!-- End of sidebar -->
     <div class="col-sm-12 col-md-12">
 
-                <!--<div class="row hidden-xs hidden-sm hidden-lg">
-                    <div class="col-xs-12 col-sm-12 col-md-12" style="padding: 0;">
-                        <a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;">Select an Interest</a>
-                        <div class="pull-right event-bar" style="display: inline-block;padding:1em;"><a href="javascipt:void(0)" class="active">Articles</a> | <a href="javascipt:void(0)">Events</a></div>
-                        <ul class="list-of-interests" style="width:50%;position:absolute;z-index:10000;display:none;">
-                                    <li>
-                                        <a href="javascipt:void(0)">Politics</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascipt:void(0)">Sports</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascipt:void(0)">Music</a>
-                                    </li>
+<!--<div class="row hidden-xs hidden-sm hidden-lg">
+<div class="col-xs-12 col-sm-12 col-md-12" style="padding: 0;">
+<a href="javascript:void(0)" class="interest" id="interest-mob-btn" style="display:inline-block;">Select an Interest</a>
+<div class="pull-right event-bar" style="display: inline-block;padding:1em;"><a href="javascipt:void(0)" class="active">Articles</a> | <a href="javascipt:void(0)">Events</a></div>
+<ul class="list-of-interests" style="width:50%;position:absolute;z-index:10000;display:none;">
+<li>
+<a href="javascipt:void(0)">Politics</a>
+</li>
+<li>
+<a href="javascipt:void(0)">Sports</a>
+</li>
+<li>
+<a href="javascipt:void(0)">Music</a>
+</li>
 
-                        </ul>
-                    </div>
-                  </div>-->
+</ul>
+</div>
+</div>-->
 
-                  <!-- Select interest bar for mobile -->
+<!-- Select interest bar for mobile -->
 
-                  <!-- Content -->
-                  <div class="home-content">
+<!-- Content -->
+<div class="home-content">
 
 
 
 <!-- <div id="exTab1" class="detail-box">
-	<ul class="nav nav-pills">
-		<li class="active">
-        	<a href="#1a" data-toggle="tab">Following</a>
-		</li>
-  		<li><a href="#2a" data-toggle="tab">Followers</a>
-		</li>
-	</ul>
+<ul class="nav nav-pills">
+<li class="active">
+<a href="#1a" data-toggle="tab">Following</a>
+</li>
+<li><a href="#2a" data-toggle="tab">Followers</a>
+</li>
+</ul>
 
-	<div class="tab-content clearfix">
-		<div class="tab-pane active" id="1a">
-          		<ul class="row-flex-container">
-			
-          		</ul>
-		</div>
-		<div class="tab-pane" id="2a">
-			<ul class="row-flex-container">
-			
-                       
-          		</ul>
-		</div>
-	</div>
+<div class="tab-content clearfix">
+<div class="tab-pane active" id="1a">
+<ul class="row-flex-container">
+
+</ul>
+</div>
+<div class="tab-pane" id="2a">
+<ul class="row-flex-container">
+
+
+</ul>
+</div>
+</div>
 </div> -->
 
 <!--<div id="exTab1" class="detail-box">
 <ul  class="nav nav-pills">
-			<li class="active">
-        <a  href="#1a" data-toggle="tab">Following</a>
-			</li>
-  			<li><a href="#2a" data-toggle="tab">Followers</a>
-			</li>
-		</ul>
+<li class="active">
+<a  href="#1a" data-toggle="tab">Following</a>
+</li>
+<li><a href="#2a" data-toggle="tab">Followers</a>
+</li>
+</ul>
 
-			<div class="tab-content clearfix">
-			  <div class="tab-pane active" id="1a">
-          <ul class="list-inline" id="disp_following">
+<div class="tab-content clearfix">
+<div class="tab-pane active" id="1a">
+<ul class="list-inline" id="disp_following">
 
-          </ul>
-				</div>
-				<div class="tab-pane" id="2a">
-          <ul class="row-flex-container" id="disp_followers">
+</ul>
+</div>
+<div class="tab-pane" id="2a">
+<ul class="row-flex-container" id="disp_followers">
 
-          </ul>
-				</div>
-			</div>
-    </div>-->
+</ul>
+</div>
+</div>
+</div>-->
 
-    <h4>MAGAZINES</h4>
-
-
-    <div class="wrapper container" style="display:inline">
-
-     <div class="row">
-
-      <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
-        <a href="/magazine-content/?id=173">
-          <div class="img-overlay">
-            <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
-            <div class="project-overlay"></div>
-          </div>
-          <div class="text" style="text-align:center;">
-            <h4 style="text-transform:uppercase;">Favourite</h4>
-            <!--<p>By The Telegraph</p>-->
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
-        <a href="/magazine-content/?id=172">
-          <div class="img-overlay">
-            <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
-            <div class="project-overlay"></div>
-          </div>
-          <div class="text text-center">
-            <h4 class="text-uppercase">Read Later</h4>
-            <!--<p>By The Telegraph</p>-->
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
-        <a href="/magazine-content/?id=174">
-          <div class="img-overlay">
-            <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
-            <div class="project-overlay"></div>
-          </div>
-          <div class="text text-center">
-            <h4 class="text-uppercase">Things to Buy</h4>
-            <!--<p>By The Telegraph</p>-->
-          </div>
-        </a>
-      </div>
-
-      <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
-        <a href="/magazine-content/?id=175">
-          <div class="img-overlay">
-            <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
-            <div class="project-overlay"></div>
-          </div>
-          <div class="text text-center">
-            <h4 class="text-uppercase">Places to Visit</h4>
-            <!--<p>By The Telegraph</p>-->
-          </div>
-        </a>
-      </div>
+<h4>MAGAZINES</h4>
 
 
+<div class="wrapper container" style="display:inline">
+
+  <div class="row">
+
+    <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
+      <a href="/magazine-content/?id=173">
+        <div class="img-overlay">
+          <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="text" style="text-align:center;">
+          <h4 style="text-transform:uppercase;">Favourite</h4>
+          <!--<p>By The Telegraph</p>-->
+        </div>
+      </a>
     </div>
+
+    <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
+      <a href="/magazine-content/?id=172">
+        <div class="img-overlay">
+          <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="text text-center">
+          <h4 class="text-uppercase">Read Later</h4>
+          <!--<p>By The Telegraph</p>-->
+        </div>
+      </a>
+    </div>
+
+    <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
+      <a href="/magazine-content/?id=174">
+        <div class="img-overlay">
+          <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="text text-center">
+          <h4 class="text-uppercase">Things to Buy</h4>
+          <!--<p>By The Telegraph</p>-->
+        </div>
+      </a>
+    </div>
+
+    <div class="col-xs-10 col-sm-3 col-md-3 col-sm-offset-0 col-xs-offset-1 project">
+      <a href="/magazine-content/?id=175">
+        <div class="img-overlay">
+          <img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/__sized__/magazine_images/empty-page-background-crop-c0-5__0-5-800x800-70.jpg" style="height:270px;width:100%;">
+          <div class="project-overlay"></div>
+        </div>
+        <div class="text text-center">
+          <h4 class="text-uppercase">Places to Visit</h4>
+          <!--<p>By The Telegraph</p>-->
+        </div>
+      </a>
+    </div>
+
 
   </div>
 
-  <input type="hidden" id="session_id" value="jzpb2ufd2iucukfm84r1y5pvl16qnu7f">
-  <!--<h4>EVENTS</h4>-->
+</div>
+
+<input type="hidden" id="session_id" value="jzpb2ufd2iucukfm84r1y5pvl16qnu7f">
+<!--<h4>EVENTS</h4>-->
 <!--<div class="detail-box" id="my_events" style="background:white;padding: 20px;">
 
 -->
@@ -351,198 +349,194 @@
           <h4 class="modal-title">EDIT YOUR PROFILE</h4>
         </div>
         <div class="modal-body col-lg-12">
-         <input type="hidden" name="csrfmiddlewaretoken" value="eIpCSGQatbQXU6SqqrvvxeietwvsmVMF">
-         <input type="hidden" name="session_id" value="jzpb2ufd2iucukfm84r1y5pvl16qnu7f">
+          <input type="hidden" name="csrfmiddlewaretoken" value="eIpCSGQatbQXU6SqqrvvxeietwvsmVMF">
+          <input type="hidden" name="session_id" value="jzpb2ufd2iucukfm84r1y5pvl16qnu7f">
 
-         <div class="col-sm-12 col-xs-12">
-           <div class="input-group image-preview" data-original-title="" title="">
-            <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
-            <span class="input-group-btn">
-              <!-- image-preview-clear button -->
-              <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
-                <span class="glyphicon glyphicon-remove"></span> Clear
-              </button>
-              <!-- image-preview-input -->
-              <div class="btn btn-default image-preview-input">
-                <span class="glyphicon glyphicon-folder-open"></span>
-                <span class="image-preview-input-title">Browse</span>
-                <input type="file" name="profile_image" accept="image/png, image/jpeg, image/gif"> <!-- rename it -->
-              </div>
-            </span>
+          <div class="col-sm-12 col-xs-12">
+            <div class="input-group image-preview" data-original-title="" title="">
+              <input type="text" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->
+              <span class="input-group-btn">
+                <!-- image-preview-clear button -->
+                <button type="button" class="btn btn-default image-preview-clear" style="display:none;">
+                  <span class="glyphicon glyphicon-remove"></span> Clear
+                </button>
+                <!-- image-preview-input -->
+                <div class="btn btn-default image-preview-input">
+                  <span class="glyphicon glyphicon-folder-open"></span>
+                  <span class="image-preview-input-title">Browse</span>
+                  <input type="file" name="profile_image" accept="image/png, image/jpeg, image/gif"> <!-- rename it -->
+                </div>
+              </span>
+            </div>
           </div>
+
+          <div class="col-sm-12 col-xs-12">
+            <label>About Me : </label>
+            <input type="text" placeholder="About Me" name="about_me" id="title" value="None">
+          </div>
+
+          <div class="col-sm-12 col-xs-12">
+            <label>Working at : </label>
+            <input type="text" placeholder="Your Workplace" id="title" name="working_at" value="None">
+
+          </div>
+
+          <div class="col-sm-12 col-xs-12">
+            <label>College : </label>
+            <input type="text" placeholder="Your College Name" name="college" id="title" value="None">
+
+          </div>
+
+
+
         </div>
-
-        <div class="col-sm-12 col-xs-12">
-         <label>About Me : </label>
-         <input type="text" placeholder="About Me" name="about_me" id="title" value="None">
-       </div>
-
-       <div class="col-sm-12 col-xs-12">
-         <label>Working at : </label>
-         <input type="text" placeholder="Your Workplace" id="title" name="working_at" value="None">
-
-       </div>
-
-       <div class="col-sm-12 col-xs-12">
-        <label>College : </label>
-        <input type="text" placeholder="Your College Name" name="college" id="title" value="None">
-
-      </div>
-
-
-
-    </div>
-    <div class="modal-footer">
-      <button type="submit" class="btn btn-default">Save</button>
-    </div>
-  </form></div>
-
-</div>
-</div>
-
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-5">
-        <p class="text-muted">
-          Activork is a platform that helps users make smart lifestyle choices, locally.
-          Well organised, expert curated, high quality content that is locally relevant.
-        </p>
-      </div>
-      <div class="col-md-7 hidden-xs hidden-sm">
-        <div class="row">
-          <div class="col-md-4">
-            <ul class="text-muted list-unstyled">
-              <li style="padding-bottom:2em;">
-                <a href="javascipt:void(0)">BUSINESSES</a>
-              </li>
-              <li>
-                Add Hangout
-              </li>
-              <li>
-                Claim your listing
-              </li>
-              <li>
-                Advertise
-              </li>
-              <li>
-                Base
-              </li>
-              <li>
-                Book
-              </li>
-              <li>
-                Guidelines
-              </li>
-              <li>
-                Business Blog
-              </li>
-
-            </ul>
-          </div>
-          <div class="col-md-4">
-
-          </div>
-          <div class="col-md-4">
-
-          </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default">Save</button>
         </div>
-      </div>
+      </form></div>
+
     </div>
   </div>
-</footer>
-<!-- End of footer -->
-
-<!-- Mobile Menu -->
 
 
-
-<div class="container mob-nav-list-wrapper">
-  <div class="mob-nav-list" id="mob-nav-list">
-    <ul class="vertical-cat">
-
-      <li style="margin-left:-8px;">
-        <a href="/myprofile/"><span><!--<img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/profile_image/defaultuser.png" class="profile" width="30" />-->
-          <div class="circle-small col-md-4 col-sm-4 col-xs-3"></div>
-
-
-        </span>Test</a>
-      </li>
-            <!--  <li class="visible-sm visible-md visible-lg">
-                  <a href="/post_article/?id=d4mcysq6i5xugod4txztmh529ck1hsi6"><span><img src="images/harry.jpg" class="articles" width="20" /></span>Post Articles</a>
-              </li>
-              <li class="visible-sm visible-md visible-lg">
-                  <a href="/post_event/?id=d4mcysq6i5xugod4txztmh529ck1hsi6"><span><img src="images/harry.jpg" class="events" width="20" /></span>Post Events</a>
-                </li>-->
-                <li>
-                  <a href="/my-magazines/?type=article"><span><img class="bookmarks" width="20"></span>My Magazines</a>
-                </li>
-              <!--<li>
-                  <a href="javascipt:void(0)"><span><img class="messages" width="20" /></span>Messages</a>
-              </li>
-              <li>
-                  <a href="javascipt:void(0)"><span><img class="friends" width="20" /></span>Friends</a>
-                </li>-->
-                <li>
-                  <a href="javascipt:void(0)"><span><img class="notification" width="20"></span>Notification</a>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-5">
+          <p class="text-muted">
+            Activork is a platform that helps users make smart lifestyle choices, locally.
+            Well organised, expert curated, high quality content that is locally relevant.
+          </p>
+        </div>
+        <div class="col-md-7 hidden-xs hidden-sm">
+          <div class="row">
+            <div class="col-md-4">
+              <ul class="text-muted list-unstyled">
+                <li style="padding-bottom:2em;">
+                  <a href="javascipt:void(0)">BUSINESSES</a>
                 </li>
                 <li>
-                  <a href="/settings/"><span><img class="setting" width="20"></span>Settings</a>
+                  Add Hangout
                 </li>
-              <!-- <li>
-                  <a href="/website/logout/">Logout</a>
-                </li> -->
-
                 <li>
-                  <form class="search">
-                    <div class="form-group">
-                      <div class="input-group">
-                        <input type="text" class="form-control" id="search" placeholder="Search">
-                        <button type="submit" style="display:none;" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button></div>
-                      </div>
-                    </form>
-                  </li>
-                </ul>
-              </div>
+                  Claim your listing
+                </li>
+                <li>
+                  Advertise
+                </li>
+                <li>
+                  Base
+                </li>
+                <li>
+                  Book
+                </li>
+                <li>
+                  Guidelines
+                </li>
+                <li>
+                  Business Blog
+                </li>
 
-
-
-
-              <!-- Mobile Add Post -->
-              <ul class="list-unstyled" id="mobile-events">
-                <li><button type="button" name="button" id="mobile-post-event">Post Event</button></li>
-                <li><button type="button" name="button" id="mobile-post-article">Post Article</button></li>
-                <li><button type="button" name="button" id="login-human">You gotta login human!</button></li>
               </ul>
-    <!--<div class="visible-xs add-btn">
-        <button id="add-post"></button>
-      </div>-->
+            </div>
+            <div class="col-md-4">
 
-      <!-- Mobile shadow -->
-      <div class="shadow">
+            </div>
+            <div class="col-md-4">
+
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </footer>
+  <!-- End of footer -->
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="../static/website/js/jquery-1.9.1.js"></script>
-      <script src="../static/website/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-      <!-- x-editable (bootstrap version) -->
-      <script src="../static/website/js/owl.carousel2.min.js"></script>
-      <!-- <script src="/static/website/js/owl.carousel.js"></script> -->
-      <script src="../static/website/js/carousel.js"></script>
-      <script src="../static/website/js/scripts.js"></script>
-      <script src="../static/website/js/cookie.js"></script>
-      <script src="../static/website/js/jquery.modal.js"></script>
-      <script src="../static/website/js/profile.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>   
+  <!-- Mobile Menu -->
 
 
 
+  <div class="container mob-nav-list-wrapper">
+    <div class="mob-nav-list" id="mob-nav-list">
+      <ul class="vertical-cat">
 
+        <li style="margin-left:-8px;">
+          <a href="/myprofile/"><span><!--<img src="http://ec2-54-70-76-23.us-west-2.compute.amazonaws.com/media/profile_image/defaultuser.png" class="profile" width="30" />-->
+            <div class="circle-small col-md-4 col-sm-4 col-xs-3"></div>
+
+
+          </span>Test</a>
+        </li>
+<!--  <li class="visible-sm visible-md visible-lg">
+<a href="/post_article/?id=d4mcysq6i5xugod4txztmh529ck1hsi6"><span><img src="images/harry.jpg" class="articles" width="20" /></span>Post Articles</a>
+</li>
+<li class="visible-sm visible-md visible-lg">
+<a href="/post_event/?id=d4mcysq6i5xugod4txztmh529ck1hsi6"><span><img src="images/harry.jpg" class="events" width="20" /></span>Post Events</a>
+</li>-->
+<li>
+  <a href="/my-magazines/?type=article"><span><img class="bookmarks" width="20"></span>My Magazines</a>
+</li>
+<!--<li>
+<a href="javascipt:void(0)"><span><img class="messages" width="20" /></span>Messages</a>
+</li>
+<li>
+<a href="javascipt:void(0)"><span><img class="friends" width="20" /></span>Friends</a>
+</li>-->
+<li>
+  <a href="javascipt:void(0)"><span><img class="notification" width="20"></span>Notification</a>
+</li>
+<li>
+  <a href="/settings/"><span><img class="setting" width="20"></span>Settings</a>
+</li>
+<!-- <li>
+<a href="/website/logout/">Logout</a>
+</li> -->
+
+<li>
+  <form class="search">
+    <div class="form-group">
+      <div class="input-group">
+        <input type="text" class="form-control" id="search" placeholder="Search">
+        <button type="submit" style="display:none;" class="input-group-addon"><span class="glyphicon glyphicon-search"></span></button></div>
+      </div>
+    </form>
+  </li>
+</ul>
+</div>
+
+
+
+
+<!-- Mobile Add Post -->
+<ul class="list-unstyled" id="mobile-events">
+  <li><button type="button" name="button" id="mobile-post-event">Post Event</button></li>
+  <li><button type="button" name="button" id="mobile-post-article">Post Article</button></li>
+  <li><button type="button" name="button" id="login-human">You gotta login human!</button></li>
+</ul>
+<!--<div class="visible-xs add-btn">
+<button id="add-post"></button>
+</div>-->
+
+<!-- Mobile shadow -->
+<div class="shadow">
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../static/website/js/jquery-1.9.1.js"></script>
+<script src="../static/website/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<!-- x-editable (bootstrap version) -->
+<script src="../static/website/js/owl.carousel2.min.js"></script>
+<!-- <script src="/static/website/js/owl.carousel.js"></script> -->
+<script src="../static/website/js/carousel.js"></script>
+<script src="../static/website/js/scripts.js"></script>
+<script src="../static/website/js/cookie.js"></script>
+<script src="../static/website/js/jquery.modal.js"></script>
+<script src="../static/website/js/profile.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>   
 
 
 

@@ -1,0 +1,178 @@
+#featured-container .owl-dots{
+	right:0;
+	left:0;
+}
+a{
+	text-decoration:none!important;
+}
+
+a:hover{
+	color:#f9a533!important;
+}
+
+.interest:hover{
+	color:white!important;
+}
+
+.list-of-interests a:hover{
+	color:white!important;
+}
+
+.btn-circle {
+	background-color:white;
+	border-radius:1px solid #f9a533;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 15px;
+}
+
+.row-fluid .col-xs-6{
+	height:60px;
+}
+
+.row-fluid{
+	min-height:40px; 
+	margin-top: 0.7em;
+}
+
+.row-fluid .left{
+	background-color:#f9a533;
+	color:white; 
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.row-fluid .right{
+	background-color:
+	black;color:white; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.heading{
+	width:320px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+
+
+}
+
+
+
+.thumbnail.img-responsive{width:100%;height:180px;border:none;padding:0px 0px;}
+
+#search2{
+	box-shadow:none;
+	border:none;
+	border-radius:0;
+}
+
+.showNav{
+	font-size:25px;
+	color:#ffb414;
+}
+
+.showNav-wrapper{
+	position:absolute;
+	left:0;
+	padding:1em;
+}
+
+.owl-carousel.owl-theme{
+	margin-top:35px;
+}
+
+.slider-parent>a>div.img{
+	height:360px;
+	background-size:cover;
+}
+
+.slider-parent .slider-child{
+	bottom:30px;
+}
+
+.slider-child a{
+	color:white;
+}
+
+.uil-gps-css{
+	transform:scale(0.15);
+	width:300px;
+	height:50px;
+}
+
+#interest-mob-btn{
+	display:inline-block;
+	padding: 1em;
+	width:100%;
+}
+
+.list-of-interests{
+	width:50%;
+	position:absolute;
+	z-index:10000;
+	display:none;
+}
+
+#magazine_body{
+	overflow-y: auto;
+	height:400px;
+}
+
+.modal-body#magazine_body>div{
+	padding-left:0px;
+	padding-right:5px;
+}
+
+.modal-body#magazine_body .text-center{
+	margin:25%;
+	color:#f9a533;
+	font-size:18px;
+	position:absolute;
+	z-index:1;
+}
+
+.card.visible-sm.visible-md.visible-lg{
+	width:100%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+
+div.circle{
+	top:8px;
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-position:center center
+	;background-size:cover;
+}
+
+.card.card-img{
+	position:relative;
+}
+
+.mob-nav-list-wrapper{
+	overflow:hidden;
+	padding:0;
+	position:relative;
+}
+
+div[data-target="#createMagazine"]{
+	background-color:#dedede;
+	color:black;
+	height:180px;
+	line-height:180px;
+	text-align: center;
+}
+
+div[data-target="#createMagazine"] a{
+	color:#f9a533;
+	font-size:15px;
+}
