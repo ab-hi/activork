@@ -1831,3 +1831,41 @@ width: 100%;
   background: white;
   font-weight: bold;
 }
+
+.page-wrapper{
+  background:#333;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:10000;
+}
+
+div.input-group-addon{
+  background:#fff;
+  color:#ccc;
+}
+
+#search2{
+  width:360px;
+  border: none;
+  box-shadow: none;
+  border-left: 1px solid #ccc;
+}
+
+#search{
+  width:80%;
+  box-shadow: none;
+  box-shadow:none;
+  border:1px solid grey;
+  border-radius:0;
+  color:white;
+  background:black;
+}
+
+button.input-group-addon{
+  height:34px;
+}
+
+.mob-nav{
+  position:relative;
+}

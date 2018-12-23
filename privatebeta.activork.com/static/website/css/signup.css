@@ -131,3 +131,16 @@ a[href="/login/"]{
 	bottom: -9999px; 
 	display: none;
 }
+
+.mob-nav-list-wrapper{
+	overflow:hidden;
+	padding:0;
+	position:relative;
+}
+
+#fb-root>div{
+	position: absolute; 
+	top: -10000px; 
+	width: 0px; 
+	height: 0px;
+}

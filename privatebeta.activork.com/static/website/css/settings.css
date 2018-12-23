@@ -1,0 +1,137 @@
+.page-wrapper{
+	background:#333;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:10000;
+}
+
+.navigation{
+	display: none;
+}
+
+div.input-group-addon{
+	background:#fff;
+	color:#ccc;
+}
+
+button.input-group-addon{
+	height:34px;
+}
+
+#search2{
+	width:360px;
+	border: none;
+	box-shadow: none;
+	border-left: 1px solid #ccc;
+}
+
+.mob-nav{
+	position:relative;
+}
+
+.mob-nav>div{
+	padding:1em;
+}
+
+.sidebar-wrapper{
+	background:#f7f7f7;
+	border:none;
+}
+
+#featured-container{
+	height:100%;
+}
+
+.section-1{
+	padding:0;
+}
+
+.section-1 .child-1{
+	width:100%;
+	padding:0;
+}
+
+.section-1 .child-1 .child-child-1{
+	background-color:#f9a533;
+	width:100%;
+	height:10px;
+	margin:0;
+	position:relative;
+}
+
+.section-1 .child-1 .child-child-1 .child-child-child-1{
+	background-color:black;
+	position:absolute;
+	z-index:1;
+	width:50%;
+	height:10px;
+	right:0;
+}
+
+.home-content{
+	margin-top: 80px; 
+	padding:1em 2em;
+}
+
+.home-content center span{
+	padding:0 0.5em;
+	border-bottom: 2px solid #1e1f23;
+}
+
+#notification-btn{
+	border:none; 
+	background: lightgrey; 
+	border-radius: 5px;
+}
+
+.fa.fa-facebook{
+	color:#f9a533;
+	font-size:large;
+	margin:0 0.5em;
+}
+
+.fa.fa-twitter{
+	color:#f9a533;
+	font-size:large;
+	margin:0 0.5em;
+}
+
+.fa.fa-google-plus{
+	color:#f9a533;
+	font-size:large;
+	margin:0 0.5em;
+}
+
+.mob-nav-list-wrapper{
+	overflow:hidden;
+	padding:0;
+	position:relative;
+}
+
+a[href="/myprofile/"]{
+	margin-right:10px;
+}
+
+.mob-nav-list ul.vertical-cat>li>a>span{
+	margin-right:10px;
+}
+
+#search{
+	width:100%;
+	box-shadow: none;
+	box-shadow:none;
+	border:1px solid grey;
+	border-radius:0;
+	color:white;
+	background:black;
+}
+
+.vertical-center-align>a>span{
+	margin-right:10px;
+}
+
+.showNav{
+	font-size:25px;
+	color:#ffb414;
+}
