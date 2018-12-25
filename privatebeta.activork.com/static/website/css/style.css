@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: activorkFont;
     src: url('assets/fonts/AvenirLTStd-Light.otf');
@@ -23,7 +24,9 @@ body {
   font-family: activorkFont;
   background: #d1d1d1;
   letter-spacing: 0.5px;
+  background-color:darkgrey;
 }
+
 
 .popover {
   font-family: activorkFont;
@@ -115,7 +118,7 @@ body {
   position: absolute;width:50px;height:34px;top: -0.5px;right: 0;border-radius: 0;
 }
 
-.input-group-addon {
+div.input-group-addon {
   background: #fca733;
   color: #fff;
   border: none;
@@ -1696,7 +1699,7 @@ width: 100%;
 }
 
 #featured-container{
-  margin-top:-30px;
+  margin-top:-10px;
   margin-bottom:-10px;
   position:relative;
   height:360px;
