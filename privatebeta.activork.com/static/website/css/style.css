@@ -1674,6 +1674,10 @@ width: 100%;
   top: 0em;
 }
 
+.card .dropdown a{
+  cursor: pointer;
+}
+
 .card .dropdown{
   position: absolute;
   right: 2em;
@@ -1871,4 +1875,17 @@ button.input-group-addon{
 
 .mob-nav{
   position:relative;
+}
+
+
+@media only screen and (min-width: 768px){
+  .card .dropdown{
+    right: 1em;
+    top: 0em;
+  }
+
+  .mob-nav .dropdown-menu{
+    left: unset;
+    right: 2em;
+  }
 }
